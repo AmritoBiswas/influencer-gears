@@ -1,5 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Poppins:wght@400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 
+}
+.fixed-width{
+    width: 980px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+.main-section{
+    display: flex;
+    justify-content: space-around;
+}
+.main-section .main-left{
+    margin-left: 190px;
+}
+.section-button{
+    background-color: #E02C6D;
+    color: #fff;
+    outline: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+.main-section .main-right{
+    margin-right: 150px;
+}
+.main-section .main-right img{
+    width: 440px;
+    height: 414px;
+}
+.blogs{
+    background-color: #F1F1F1;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+    padding: 10px;
+    
+}
+.blog{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.blog img{
+    width: 300px;
+    height: 256px;
+    
+}
+.blog h3{
+    color: #18191F;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+.blog h4{
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.ratings{
+    display: flex;
+    align-items: center;
+}
+.ratings p{
+    margin-left: 4px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #5E6366;
+}
+.ratings i{
+    color: #FB8200;
+    font-size: 16px;
+}
+.blog>p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #787885;
 }
